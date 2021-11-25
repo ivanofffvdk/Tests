@@ -38,19 +38,18 @@ def generation_simple():
         else:
             continue
 
-
+    spisok = []
     for z in range(100):
-        spisok = []
+
 
         spisok.append(test_miller(p))
 
-        if spisok[i]==True:
+    if spisok[z]==True:
 
 
             return print("Число простое", p, "Число повторений", len(spisok))
 
-        else:
-
-        generation_simple()
+    else:
+            generation_simple()
 
 generation_simple()
